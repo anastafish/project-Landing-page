@@ -2,9 +2,140 @@ body{
     text-align: center;
     
 }
+.h{
+    margin: 10px;
+}
+li{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+button{
+    background-color: #3882F6;
+}
+.awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
 .header{
+    background-color:#1F2937 ;
     display:flex;
+    flex-direction: column;
+    height:379px;
+    justify-content: space-between;
+    position: relative;
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+}
+.top{
+    display:flex;
+    justify-content: space-around
 }
 ul{
     list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+        
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.logo,.bottom{
+    color:white;
+    font-size: 24px;
+    text-align: start;
+    margin-left: 10px;
+}
+.bottom button{
+    margin-bottom: 50px;
+    width:80px;
+    height:40px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 315px;
+    max-width: 500px;
+
+    
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    gap:40px
+    
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    left:0px;
+}
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+}
+.fourth{
+    background-color: #3882F6;
+    display: flex;
+    align-items: flex-start;
+    margin: 100px;
+    margin-top:400px;
+    flex-direction: column;
+}
+.some{
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1F2937;
+    align-self: center;
+}
+.last{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    left:0px;
+}
+.last-button{
+    align-self: flex-end;
+    margin:30px;
+    margin-right: 200px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 50px;
+    margin: 0;
+}
+.random{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 200px;
 }
