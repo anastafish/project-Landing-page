@@ -29,6 +29,7 @@ button{
     right:0px;
     top:0px;
 }
+
 .top{
     display:flex;
     justify-content: space-around
@@ -101,6 +102,9 @@ a{
     margin: 100px;
     margin-top:400px;
     flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 .some{
     font-size: 36px;
@@ -124,6 +128,12 @@ a{
     align-self: flex-end;
     margin:30px;
     margin-right: 200px;
+    width: 150px;
+    height:75px;
+    border-radius: 12px;
+    border-color: white;
+    border-width: 5px;
+
 }
 .sign{
     display: flex;
@@ -131,6 +141,7 @@ a{
     padding-left: 400px;
     padding-top: 50px;
     margin: 0;
+    font-size: 30px;
 }
 .random{
     display: flex;
